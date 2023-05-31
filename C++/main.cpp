@@ -20,7 +20,7 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]);
 
     // 原始數列.
-    cout << "original sequence： ";
+    cout << "original sequence: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
@@ -30,7 +30,7 @@ int main() {
     cout << endl;
 
     // 排序後數列.
-    cout << "sorted sequence:： ";
+    cout << "sorted sequence: ";
     for (int i = 0; i < size; i++) {
         cout << arr[i] << " ";
     }
